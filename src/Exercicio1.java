@@ -6,7 +6,7 @@
 
 /**
  *
- * @authoralanj
+ * @author Alan <alanjuniorestudo@gmail.com>
  */
 public class Exercicio1 {
 
