@@ -16,6 +16,7 @@ public class Exercicio1 {
          * onde: vlIdade do tipo Vetor 
          */
         int vlIdade[] = new int[20];
+        
         System.out.println(" -------- Entradado dos dados  --------- ");
         /*Carregando o vetor com as idades */
         for (int i = 0; i < vlIdade.length; i++) {
