@@ -23,8 +23,8 @@ public class Exercicio7 {
             System.out.print(" Digite o " + (i + 1) + "º valor : ");
             vlValor[i] = teclado.nextInt();
         }
+        
         /* ------------ Processamento -------------------*/
-
         for (int i = 0; i < vlValor.length; i++) {
             if (vlValor[i] % 2 == 0) {
                 vlPar ++ ;
@@ -34,7 +34,7 @@ public class Exercicio7 {
                vlMultiplo ++; 
             }
         }
-        System.out.println(" ------------ entrada dos dados -----------------");
+        System.out.println(" ------------ Saida dos dados -----------------");
         System.out.println(" Contem " + vlPar + " de numeros pares " );
         System.out.println(" Contem " + vlMultiplo + " de multiplos de 5 ");
     }
