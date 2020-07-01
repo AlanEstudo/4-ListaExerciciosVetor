@@ -6,15 +6,16 @@ import java.util.Scanner;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author Alan <alanjuniorestudo@gmail.com>
  */
 public class Exercicio7 {
+
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         int vlPar = 0;
+        int vlMultiplo =0;
         int vlValor[] = new int[8];
         
         System.out.println(" ------------ entrada dos dados -----------------");
@@ -23,6 +24,18 @@ public class Exercicio7 {
             vlValor[i] = teclado.nextInt();
         }
         /* ------------ Processamento -------------------*/
-        
+
+        for (int i = 0; i < vlValor.length; i++) {
+            if (vlValor[i] % 2 == 0) {
+                vlPar ++ ;
+            }
+            
+            if(vlValor[i] % 5 == 0){
+               vlMultiplo ++; 
+            }
+        }
+        System.out.println(" ------------ entrada dos dados -----------------");
+        System.out.println(" Contem " + vlPar + " de numeros pares " );
+        System.out.println(" Contem " + vlMultiplo + " de multiplos de 5 ");
     }
 }
