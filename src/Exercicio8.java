@@ -27,7 +27,7 @@ public class Exercicio8 {
                vlConta ++; 
             }
         } 
-        System.out.println(" ------------ entrada dos dados -----------------");
+        System.out.println(" ------------ saida dos dados -----------------");
         System.out.println("Total de vogais : " +  vlConta);
         
     }
