@@ -16,7 +16,7 @@ public class Exercicio7 {
         Scanner teclado = new Scanner(System.in);
         int vlPar = 0;
         int vlMultiplo =0;
-        int vlValor[] = new int[8];
+        int vlValor[] = new int[50];
         
         System.out.println(" ------------ entrada dos dados -----------------");
         for (int i = 0; i < vlValor.length; i++) {
